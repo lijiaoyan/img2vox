@@ -8,8 +8,10 @@ fprintf('#     * Output these pores & wall as individual data files  #\n');
 fprintf('#                                                           #\n');
 fprintf('#############################################################\n');
 
-fprintf("Input the number of connected pores to index seperately:\n");
-nRegions = sscanf(chr,'%i');
+%{
+Number of connected pores to index seperately
+%}
+nRegions = 1;
 
 %{
 Open a MATLAB built-in GUI to look for image files.
